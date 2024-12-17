@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: #fefaf5; color: #333;">
+
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="home.html"><strong>BAKERY</strong></a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="home.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="products.html">products</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger-icon">
+        &#9776;
+      </div>
+    </nav>
+  </header>
+
+    <p>Home Website</p>
+
+    <div style="max-width: 1000px; margin: 40px auto; padding: 20px; background-color: white; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); text-align: center;">
+      <h2 style="font-size: 28px; color: #ff7f50;">Discover Our Offerings</h2>
+      <p style="font-size: 18px; line-height: 1.6; margin-bottom: 20px;">
+        Hi! Welcome to <b>Bakery Cakery!</b> We offer you the most delicious cakes and cupcakes  
+        for all kinds of events and celebrations. Browse around to discover what you would like to buy.
+      </p>
+      <img src="https://via.placeholder.com/400x200" alt="Delicious Cakes" style="width: 100%; max-width: 400px; border-radius: 10px; margin-bottom: 20px;">
+      <p style="font-size: 18px; line-height: 1.6;">
+        Whether it's a birthday, wedding, or a special celebration, we have the perfect treats for you. Our cakes and cupcakes are crafted with love and care, ensuring every bite is delightful.
+      </p>
+    </div>
+
+    <footer style="background-color: #333; color: #fff; padding: 20px 0; text-align: center;">
+        <a href="#">home</a>
+        <a href="#">about</a>
+        <a href="#">products</a>
+        <a href="#">contact</a>
+        <p>Follow us on</p>
+        <div>
+          <a href="https://www.instagram.com/yourprofile" target="_blank" style="color: #1877F2; text-decoration: none; margin: 0 10px;">
+            Instagram
+          </a>
+          |
+          <a href="https://www.facebook.com/yourprofile" target="_blank" style="color: #1877F2; text-decoration: none; margin: 0 10px;">
+            Facebook
+          </a>
+          <p>Contact us via email: <a href="mailto:owner@contact.com">owner@contact.com</a></p>
+        </div>
+        <p style="margin-top: 10px;">&copy; 2024 MyCompany. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger-icon');
+        const nav = document.querySelector('nav');
+      
+        hamburger.addEventListener('click', () => {
+          nav.classList.toggle('active');
+        });
+      </script>
+      
+</body>
+</html>
