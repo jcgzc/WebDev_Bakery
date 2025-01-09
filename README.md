@@ -1,1 +1,1 @@
-Basic layout of a website for cupcakes and wedding cakes, using html css and javascript in vscode
+Basic layout of a website for cupcakes and wedding cakes, using html and css in vscode
